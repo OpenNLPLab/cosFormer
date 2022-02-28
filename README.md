@@ -8,6 +8,10 @@ Official implementation of cosformer-attention in cosFormer: [Rethinking Softmax
   - Add core code
 - 
 
+## License
+
+This repository is released under the Apache 2.0 license as found in the [LICENSE](LICENSE) file.
+
 ## Citation
 
 If you use this code for a paper, please cite:

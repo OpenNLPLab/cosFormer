@@ -51,7 +51,7 @@ class CosformerAttention(nn.Module):
         if act_fun == "relu":
             return F.relu
         elif act_fun == "elu":
-            return 1 + F.elu
+            return lambda x: 1 + F.elu(x)
 
     def forward(
         self,
